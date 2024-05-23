@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+   
     <title>My Portfolio</title>
   </head>
   <body>
@@ -38,7 +39,7 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic-portrait.jpg" alt="MaludaTech profile picture" />
+        <img src="./assets/profile-pic-portrait.jpg" alt="John Doe profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -47,7 +48,7 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('./assets/my-resume.pdf')"
           >
             Download CV
           </button>
@@ -65,7 +66,7 @@
           <img
             src="./assets/github.png"
             class="icon"
-            onclick="location.href='https://github.com/Davinci321?tab=overview'"
+            onclick="location.href='https://github.com/maludatech?tab=overview'"
             alt=""
           />
         </div>
@@ -79,7 +80,7 @@
           <img
             class="about-pic"
             src="./assets/profile-picture-side.jpg"
-            alt="Side Profile Picture"
+            alt="Profile Picture"
           />
         </div>
         <div class="about-details-container">
@@ -105,11 +106,7 @@
           </div>
           <div class="text-container">
             <p>
-              I'm a Full-stack Website Developer proficient in a spectrum of technologies. My strong foundation includes HTML, CSS (with tailwind CSS) and JavaScript for creating responsive web interfaces. On the server side, I specialize in typescript, Node.js and Express.js ensuring robust server applications.
-
-              For dynamic user experiences, I turn to React.js and EJS, building interactive, data-driven applications. My database of choice is MongoDB, offering scalability and efficiency. I'm also well-versed in emerging Web 3.0 technologies, expanding possibilities for web development.
-              
-              With a passion for harmonizing technology and creativity, I bring web projects to life. Let's collaborate to make your digital vision a reality!
+              I'm a Full-stack Website Developer proficient in a spectrum of technologies. My strong foundation includes HTML, CSS (with Tailwind CSS), and JavaScript for creating responsive web interfaces. On the server side, I specialize in TypeScript, Node.js, and Express.js, ensuring robust server applications. For dynamic user experiences, I turn to React.js, Next.js, and EJS, building interactive, data-driven applications. My database of choice is MongoDB, offering scalability and efficiency. I'm also well-versed in emerging Web 3.0 technologies, expanding possibilities for web development. With a passion for harmonizing technology and creativity, I bring web projects to life. Let's collaborate to make your digital vision a reality!
             </p>
           </div>
         </div>
@@ -181,7 +178,18 @@
                 />
                 <div>
                   <h3>ReactJS</h3>
-                  <p>Intermediate</p>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>Next.js</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -208,7 +216,7 @@
                 />
                 <div>
                   <h3>MongoDB</h3>
-                  <p>Intermediate</p>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -219,7 +227,7 @@
                 />
                 <div>
                   <h3>Node JS</h3>
-                  <p>Intermediate</p>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -230,7 +238,7 @@
                 />
                 <div>
                   <h3>Express JS</h3>
-                  <p>Intermediate</p>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -241,7 +249,7 @@
                 />
                 <div>
                   <h3>Git</h3>
-                  <p>Intermediate</p>
+                  <p>Experienced</p>
                 </div>
               </article>
             </div>
@@ -255,11 +263,13 @@
         alt=""
       />
     </section>
+
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
-        <div class="about-containers">
+        <div class="project-container">
+          <div class="minor-project-container">
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -272,13 +282,13 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Davinci321/Todo-Web-App';"
+                onclick="location.href='https://github.com/maludatech/food_e-commerce"
               >
                 GitHub
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://todoey-uvts.onrender.com/';"
+                onclick="location.href='https://maluda-jollof.vercel.app/';"
               >
                 Live Demo
               </button>
@@ -296,18 +306,19 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Davinci321/maluda-jollof';"
+                onclick="location.href='https://github.com/maludatech/anonymous';"
               >
                 GitHub
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://maluda-jollof.onrender.com/';"
+                onclick="location.href='https://anonymous-eta.vercel.app/';"
               >
                 Live Demo
               </button>
             </div>
           </div>
+        </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -320,18 +331,19 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Davinci321/MERN-stack-app';"
+                onclick="location.href='https://github.com/maludatech/crypto';"
               >
                 GitHub
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://workout-logger-hlng.onrender.com/';"
+                onclick="location.href='https://prowealth.vercel.app/';"
               >
                 Live Demo
               </button>
             </div>
           </div>
+       
         </div>
       </div>
       <img
@@ -341,6 +353,8 @@
         alt=""
       />
     </section>
+
+
     <section id="contact">
       <p class="section__text__p1">Get In Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -353,14 +367,7 @@
           />
           <p><a href="">nwitevictor7@gmail.com</a></p>
         </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            class="icon contact-icon"
-            alt="Email icon"
-          />
-          <p><a href="https://www.linkedin.com/in/nwite-victor-95aaa31b0">LinkedIn</a></p>
-        </div>
+        
       </div>
     </section>
     <footer>
@@ -374,7 +381,7 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 Victor Ugochukwu. All Rights Reserved</p>
+      <p>Copyright &#169; 2024 Victor Ugochukwu. All Rights Reserved</p>
     </footer>
     <script src="script.js"></script>
   </body>
